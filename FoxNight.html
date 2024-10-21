@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body
+        {
+            font-family: 'Arial';
+        }
+        header
+        {
+            padding: 20px 0 0 0;
+            width: 400px;
+        }
+        footer
+        {
+            position:fixed;
+            display: block;
+            bottom: 0px;
+            width: 410px;
+            left: 38.5%;
+            padding : 20px;
+        }
+        .logo
+        {
+            font-size: 48px;
+            color: rgb(39, 26, 110);
+        }
+        .logo:hover
+        {
+            width: 80%;
+            opacity: 0.3;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        #title
+        {
+            position:fixed;
+            font-size: 62px;
+            color: rgb(77, 77, 77);
+            margin-left: 350px;   
+        }
+        ul
+        {
+            position:fixed;
+            width: 200px;
+            height: 100%;
+            margin-top: 0;
+            margin-left: 50px;
+            margin-bottom: 80px;
+            padding: 0px 40px 100px 0;
+            border-right: 2px dotted rgb(146, 63, 63);
+        }
+        li
+        {
+            list-style-type: none;
+            font-size: 24px;
+        }
+        li a
+        {
+            color: black;
+        }
+        li a:hover
+        {
+            color: rgb(255, 0, 0);
+        }
+        #menu:hover
+        {
+            color: rgb(255, 0, 0);
+            
+            font-size: 26px;
+        }
+        #menuTitle
+        {
+            color: rgb(226, 31, 31);
+            font-weight: bold;
+            font-size: 42px;
+            margin-bottom: 70px;
+        }
+        .middleTitle
+        {
+            color: rgb(235, 141, 141);
+            font-weight: bold;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        #main
+        {
+            font-size: 34px;
+        }
+        #main:hover
+        {
+            font-size: 38px;
+        }
+        .td1
+        {
+            margin: 20px 10px 10px 10px;
+        }
+        #current span
+        {
+            cursor: pointer;
+        }
+        table
+        {
+            text-align: center;
+        }
+        #table
+        {
+            margin-top: 150px;
+            padding-top: 100px;
+            margin-left: 130px;
+        }
+        #text
+        {
+            position: fixed;
+            margin-top: 100px;
+            margin-left: 355px;
+            text-align: left;
+            line-height: 30px;
+        }
+        .copyright
+        {
+            font-size: 13px;
+        }
+
+        @media only screen and (max-width:620px)
+        {
+            .menu, .main, .right
+            {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <a href="index.html" class="logo">
+                OOO
+            </a>
+        </header>
+
+        <div id="title">
+            <span>Fox's Night</span>
+        </div>
+            
+        <div id="text">
+            <span>
+                <b style="color: red;">마리 게임즈</b>의 이름을 달고 현재 개발 중인 게임이다. <br>
+                화면 터치만으로 즐길 수 있는 장애물 피하기류 게임이다. <br>
+                11월 초 구글 플레이스토어 출시 예정이며 출시 전까지 <br>
+                장애물 역할을 할 오브젝트들의 디자인이 확정되어 들어갈 예정이다.
+            </span>
+        </div>
+    </center>
+    
+        <div id="sideMenu">
+            <ul>
+                <li id="menuTitle">MENU</li>
+                <li class="middleTitle">- Mari Games</li>
+                <li id="menu"><a href="Stick.html">Stick</a></li><br>
+                <li id="current" >
+                    <span style = "color: rgb(172, 172, 172)">Fox's Night</span>
+                </li><br>
+                <li id="menu" style="margin-bottom: 40px;"><a href="GameReference.html">Game Reference</a></li><br>
+                <li class="middleTitle">- Other Tasks</li>
+                <li id="menu"><a href="Modeling.html">3D Modeling</a></li><br>
+                <li id="menu"><a href="schoolArt.html">School Arts</a></li><br>
+            </ul>
+        </div>
+        
+    <center>
+    
+        <div id="table">
+            <table>
+                <tr>
+                    <td><img src="./Image/fox1.jpg" class="td1"></td>
+                    <td><img src="./Image/fox2.jpg" class="td1"></td>
+                    <td><img src="./Image/fox3.png" class="td1"></td>
+                    <td><video src="./Image/fox4.mp4"  loop autoplay muted 
+                        width="154" height="333" class="td1"></video></td>
+                </tr>
+    
+                <tr>
+                    <td>플레이 화면</td>
+                    <td>게임 오버 화면</td>
+                    <td>게임 캐릭터</td>
+                    <td>플레이 영상</td>
+                </tr>
+            </table>      
+        </div>
+
+        <footer>
+            <span class="copyright">Copyright 2024. Mari Games. All rights reserved.
+                 <br>- Lee TaeHyung -
+            </span>
+        </footer>
+    </center>
+</body>
+</html>

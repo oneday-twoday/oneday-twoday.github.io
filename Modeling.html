@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body
+        {
+            font-family: 'Arial';
+        }
+        header
+        {
+            padding: 20px 0 0 0;
+            width: 400px;
+        }
+        footer
+        {
+            position:fixed;
+            display: block;
+            bottom: 0px;
+            width: 410px;
+            left: 38.5%;
+            padding : 20px;
+        }
+        .logo
+        {
+            font-size: 48px;
+            color: rgb(39, 26, 110);
+        }
+        .logo:hover
+        {
+            width: 80%;
+            opacity: 0.3;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        #title
+        {
+            position:fixed;
+            font-size: 62px;
+            color: rgb(77, 77, 77);
+            margin-left: 350px;   
+        }
+        ul
+        {
+            position:fixed;
+            width: 200px;
+            height: 100%;
+            margin-top: 0;
+            margin-left: 50px;
+            margin-bottom: 80px;
+            padding: 0px 40px 100px 0;
+            border-right: 2px dotted rgb(146, 63, 63);
+        }
+        li
+        {
+            list-style-type: none;
+            font-size: 24px;
+        }
+        li a
+        {
+            color: black;
+        }
+        li a:hover
+        {
+            color: rgb(255, 0, 0);
+        }
+        #menu:hover
+        {
+            color: rgb(255, 0, 0);
+            
+            font-size: 26px;
+        }
+        #menuTitle
+        {
+            color: rgb(226, 31, 31);
+            font-weight: bold;
+            font-size: 42px;
+            margin-bottom: 70px;
+        }
+        .middleTitle
+        {
+            color: rgb(235, 141, 141);
+            font-weight: bold;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        #main
+        {
+            font-size: 34px;
+        }
+        #main:hover
+        {
+            font-size: 38px;
+        }
+        .td1
+        {
+            margin: 20px 10px 10px 10px;
+        }
+        #current span
+        {
+            cursor: pointer;
+        }
+        table
+        {
+            text-align: center;
+        }
+        #table
+        {
+            margin-top: 70px;
+            margin-left: 130px;
+        }
+        #text
+        {
+            position: fixed;
+            margin-top: 100px;
+            margin-left: 355px;
+            text-align: left;
+            line-height: 30px;
+        }
+        .copyright
+        {
+            font-size: 13px;
+        }
+
+        @media only screen and (max-width:620px)
+        {
+            .menu, .main, .right
+            {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <a href="index.html" class="logo">
+                OOO
+            </a>
+        </header>
+
+        <div id="title">
+            <span>3D Modeling</span>
+        </div>
+    </center>
+    
+        <div id="sideMenu">
+            <ul>
+                <li id="menuTitle">MENU</li>
+                <li class="middleTitle">- Mari Games</li>
+                <li id="menu"><a href="Stick.html">Stick</a></li><br>
+                <li id="menu"><a href="FoxNight.html">Fox's Night</a></li><br>
+                <li id="menu" style="margin-bottom: 40px;"><a href="GameReference.html">Game Reference</a></li><br>
+                <li class="middleTitle">- Other Tasks</li>
+                <li id="current" >
+                    <span style = "color: rgb(172, 172, 172)">3D Modeling</span>
+                </li><br>
+                <li id="menu"><a href="schoolArt.html">School Arts</a></li><br>
+            </ul>
+        </div>
+    
+    <center>
+        <div id="table">
+            <table>
+                <tr>
+                    <td><img src="./Image/3D1.png" class="td1"></td>
+                    <td><img src="./Image/3D2.png" class="td1"></td>
+                    <td><img src="Image/3D4.png" class="td1"></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td><img src="./Image/3D3.jpg" class="td1"></td>
+                    <td><img src="./Image/3D5.jpg" class="td1"></td>
+                </tr>
+            </table>      
+        </div>
+
+        <footer>
+            <span class="copyright">Copyright 2024. Mari Games. All rights reserved.
+                <br>- Lee TaeHyung -
+            </span>
+        </footer>
+    </center>
+</body>
+</html>
